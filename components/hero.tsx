@@ -25,7 +25,7 @@ const HERO_BG = HERO_IMAGES[dayIndex]
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] flex items-center overflow-hidden">
+  <section className="relative min-h-[100svh] flex items-center overflow-hidden pt-20 md:pt-0">
       {/* Background image */}
       <div
         aria-hidden
@@ -146,7 +146,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="relative mx-auto w-full max-w-sm md:mt-0 mt-10"
+              className="relative mx-auto w-full max-w-sm md:mt-0 mt-4"
             >
               <div className="relative rounded-3xl overflow-hidden ring-1 ring-white/10 shadow-2xl shadow-black/40 backdrop-blur-sm bg-white/5">
                 <div
